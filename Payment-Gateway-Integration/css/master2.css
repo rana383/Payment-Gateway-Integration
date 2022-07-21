@@ -1,0 +1,53 @@
+table{
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border:1px solid white;
+    background-color: transparent;
+    height: auto;
+    width: 400px;
+    margin-left: 550px;
+}
+.pay{
+    text-align: center;
+    color: rgb(86, 86, 204);
+    font-size: 25px;;
+   margin-top: 20px;
+}
+.img1{
+    height: 90px;
+    width: 90px;
+    margin-top: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(86, 86, 204) ;
+}
+label{
+    color: rgb(86, 86, 204) ; 
+    font-family:monospace;
+    font-size: 18px;
+}
+input[type=text]:focus {
+    border: 2px solid #555;
+  }
+  button {
+    width: 50%;
+    background-color:  rgb(86, 86, 204);
+    color: white;
+    padding: 14px 30px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   margin-left: 95px;
+  }
+  input[type=text] {
+    width: 90%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
